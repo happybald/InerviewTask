@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Тестова задача для співбесіди Сергєєв Данило</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div>
+        <div id="canvas" class="box">
+        </div>
+
+        <div class="box">
+            <table>
+                <th>#</th>
+                <th>X</th>
+                <th>Y</th>
+                <tr>
+                    <td>
+                        1
+                    </td>
+                    <td>
+                        <input type="text" name="number" id="1x" value="0" />
+                    </td>
+                    <td>
+                        <input type="text" name="number" id="1y" value="0" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        2
+                    </td>
+                    <td>
+                        <input type="text" name="number" id="2x" value="0" />
+                    </td>
+                    <td>
+                        <input type="text" name="number" id="2y" value="0" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        3
+                    </td>
+                    <td>
+                        <input type="text" name="number" id="3x" value="0" />
+                    </td>
+                    <td>
+                        <input type="text" name="number" id="3y" value="0" />
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>S = </td>
+                    <td>
+                        <input type="text" name="number" id="Svalue" readonly disabled/>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="box">
+            <input type="button" value="Draw" id="DrawButton"><br>
+            <input type="button" value="About" id="aboutButton"><br>
+            <input type="button" value="Reset" id="resetButton">
+
+        </div>
+        <div id="aboutDIV" class="box" style="display: none;">
+            Центр кола знаходиться в центрі мас паралелограма<br>
+            <img src="formuls.png" width="55%" /><br> Використані технології: HTML, CSS, Javascript, PixiJS.
+        </div>
+    </div>
+
+    <script src="pixi.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
